@@ -1,0 +1,68 @@
+body {
+    margin: o;
+    background-color: dimgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 9px;
+}
+
+nav {
+    background-color: dimgrey;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0px 0px 8px 0px #0000007a;
+    border-radius: 9px;
+}
+
+nav > a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 10px;
+    margin: 10px;
+    background-color:white;
+    border-radius: 9px;
+}
+
+article {
+    padding: 10px;
+    background-color: dimgray;
+    border-radius: 9px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+article > h1 { 
+    padding: 0;
+    margin: 0;
+}
+
+article > p {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+
+footer > p {
+    padding: 2px;
+    margin: 0;
+}
